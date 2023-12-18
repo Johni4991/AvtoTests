@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Snippets/Snippets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +24,54 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Johni4991&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1744c822-b7c1-4a36-92f6-0220d0cc2291" />
+        <option name="url" value="https://github.com/Johni4991/AvtoTests.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YZllQYcY7fw0krBukgFsQkV4y0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,11 +80,125 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build AvtoTests.executor": "Run",
+    "JUnit.SelenideRepositorySearch.executor": "Run",
+    "JUnit.TestOne.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SelenideRepositorySearch">
+    <configuration name="AvtoTests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SelenideRepositorySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github" />
+      <option name="MAIN_CLASS_NAME" value="github.SelenideRepositorySearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoginTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest.TestOne" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wallpaperscraft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoginTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wallpaperscraft.wallpapers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoginTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
+      <option name="METHOD_NAME" value="wallpapers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SelenideRepositorySearch" />
+        <item itemvalue="JUnit.TestOne" />
+        <item itemvalue="JUnit.Wallpaperscraft" />
+        <item itemvalue="Gradle.AvtoTests [allureServe]" />
+        <item itemvalue="JUnit.Wallpaperscraft.wallpapers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,5 +209,16 @@
       <updated>1700741135774</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
