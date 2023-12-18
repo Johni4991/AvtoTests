@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Snippets/Snippets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +73,7 @@
   "keyToString": {
     "Gradle.Build AvtoTests.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Run",
-    "JUnit.TestOne.executor": "Run",
+    "JUnit.TestOne.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -208,7 +199,20 @@
       <option name="presentableId" value="Default" />
       <updated>1700741135774</updated>
     </task>
+    <task id="LOCAL-00001" summary="new classes">
+      <option name="closed" value="true" />
+      <created>1702888897449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702888897449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
