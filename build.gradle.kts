@@ -25,6 +25,5 @@ dependencies {
     testImplementation("io.qameta.allure:allure-java-commons:2.20.1")
 }
 tasks.test {
-    //systemProperty "chromeoptions.prefs","intl.accept_languages=ru"
     useJUnitPlatform()
 }

@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,9 +82,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AvtoTests [allureServe].executor": "Run",
+    "Gradle.AvtoTests [dependencies].executor": "Run",
+    "Gradle.AvtoTests [init].executor": "Run",
+    "Gradle.AvtoTests [testClasses].executor": "Run",
+    "Gradle.AvtoTests [wrapper].executor": "Run",
+    "Gradle.AvtoTests.executor": "Run",
     "Gradle.Build AvtoTests.executor": "Run",
-    "JUnit.SelenideRepositorySearch.executor": "Run",
-    "JUnit.TestOne.executor": "Debug",
+    "Gradle.SelenideRepositorySearch.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "JUnit.GoogleSearch.executor": "Debug",
+    "JUnit.SelenideRepositorySearch.executor": "Debug",
+    "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
+    "JUnit.TestOne.executor": "Run",
+    "JUnit.Wallpaperscraft.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -81,7 +103,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,20 +111,24 @@
       <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle dependencies" />
+      <command value="gradle --update-locks" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.SelenideRepositorySearch">
-    <configuration name="AvtoTests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AvtoTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--update-locks" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
+          <list />
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
@@ -111,6 +137,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
+    </configuration>
+    <configuration name="GoogleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github" />
+      <option name="MAIN_CLASS_NAME" value="github.GoogleSearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SelenideRepositorySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
@@ -127,17 +168,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LoginTest.*" />
+          <option name="PATTERN" value="github.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LoginTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest.TestOne" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="github" />
+      <option name="MAIN_CLASS_NAME" value="github.SelenideRepositorySearch" />
+      <option name="METHOD_NAME" value="shouldFindSelenideRepositoryAtTheTop" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,29 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wallpaperscraft.wallpapers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoginTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoginTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
-      <option name="METHOD_NAME" value="wallpapers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SelenideRepositorySearch" />
-        <item itemvalue="JUnit.TestOne" />
+        <item itemvalue="JUnit.GoogleSearch" />
         <item itemvalue="JUnit.Wallpaperscraft" />
-        <item itemvalue="Gradle.AvtoTests [allureServe]" />
-        <item itemvalue="JUnit.Wallpaperscraft.wallpapers" />
+        <item itemvalue="Gradle.AvtoTests" />
+        <item itemvalue="JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop" />
       </list>
     </recent_temporary>
   </component>
@@ -207,8 +233,39 @@
       <option name="project" value="LOCAL" />
       <updated>1702888897449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new classes">
+      <option name="closed" value="true" />
+      <created>1702888958400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702888958400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
@@ -224,5 +281,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AvtoTests$SelenideRepositorySearch_shouldFindSelenideRepositoryAtTheTop.ic" NAME="SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop Coverage Results" MODIFIED="1702892441739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>github.*</FILTER>
+    </SUITE>
   </component>
 </project>
