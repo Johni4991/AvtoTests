@@ -10,10 +10,10 @@ import static com.codeborne.selenide.Selenide.open;
 public class Wallpaperscraft {
     @Test
     void wallpapers() {
-        //Configuration.timeout = 20000;
-        //Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
         open ("https://wallpaperscraft.com/");
-        //$(".[class='search__submit']").shouldHave(text("Desktop wallpapers, hd backgrounds"));
-        $("[class='search__submit']").setValue("girl").pressEnter();
+        Configuration.timeout = 20000;
+        $("[class='gui-heading__title']").shouldHave(text("Desktop wallpapers, hd backgrounds"));
+        $("[placeholder='Search']").setValue("girl").pressEnter();
     }
 }
