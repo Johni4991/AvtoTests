@@ -1,6 +1,5 @@
 package LoginTest;
 
-import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.Test;

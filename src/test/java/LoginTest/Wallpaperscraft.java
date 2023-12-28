@@ -4,16 +4,16 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class Wallpaperscraft {
     @Test
-    void wallpapers() {
+    void wallpapers() throws InterruptedException {
         Configuration.holdBrowserOpen = true;
         open ("https://wallpaperscraft.com/");
-        Configuration.timeout = 20000;
-        $("[class='gui-heading__title']").shouldHave(text("Desktop wallpapers, hd backgrounds"));
-        $("[placeholder='Search']").setValue("girl").pressEnter();
+        $(".gui-heading").wait(40000);
+        $("[.gui-heading]")
+                .shouldHave(text("Desktop wallpapers, hd backgrounds"));
+        $("[.search__toggler]").setValue("girl").pressEnter();
     }
 }

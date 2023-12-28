@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenUrl/forTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/BestContributorToSelenide.java" afterDir="false" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,7 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.github in AvtoTests.test">
+  <component name="RunManager" selected="JUnit.Wallpaperscraft">
     <configuration name="BestContributorToSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
@@ -162,16 +159,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="forTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Wallpaperscraft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OpenUrl.*" />
+          <option name="PATTERN" value="LoginTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OpenUrl" />
-      <option name="MAIN_CLASS_NAME" value="OpenUrl.forTests" />
+      <option name="PACKAGE_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Wallpaperscraft" />
         <item itemvalue="JUnit.github in AvtoTests.test" />
         <item itemvalue="JUnit.BestContributorToSelenide" />
         <item itemvalue="JUnit.SelenideRepositorySearch" />
         <item itemvalue="JUnit.TestOne" />
-        <item itemvalue="JUnit.forTests" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703508742670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new classes + update classes">
+      <option name="closed" value="true" />
+      <created>1703671242939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703671242939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,14 +274,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes" />
+    <MESSAGE value="new classes + update classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new classes + update classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
