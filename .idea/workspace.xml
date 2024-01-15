@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Snippets/Snippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide/Snippets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="add_test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +90,7 @@
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "JUnit.BestContributorToSelenide.executor": "Debug",
     "JUnit.GoogleSearch.executor": "Debug",
+    "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
@@ -101,7 +100,7 @@
     "JUnit.github in AvtoTests.test.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new__test",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -122,21 +121,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.Lesson4">
-    <configuration name="BestContributorToSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.BestContributorToSelenide" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lesson4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
@@ -148,6 +132,22 @@
       <option name="PACKAGE_NAME" value="github" />
       <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson4.BuildLikeTheBest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github" />
+      <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
+      <option name="METHOD_NAME" value="BuildLikeTheBest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lesson4" />
+        <item itemvalue="JUnit.Lesson4.BuildLikeTheBest" />
         <item itemvalue="JUnit.Wallpaperscraft" />
         <item itemvalue="JUnit.SelenideRepositorySearch" />
-        <item itemvalue="JUnit.Lesson4" />
         <item itemvalue="JUnit.github in AvtoTests.test" />
-        <item itemvalue="JUnit.BestContributorToSelenide" />
       </list>
     </recent_temporary>
   </component>
