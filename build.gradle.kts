@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    id("java-library")
     id("io.qameta.allure") version "2.11.2"
 }
 
@@ -7,7 +7,7 @@ group = "org.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenCentral()
+    mavenCentral() //для подтягивания зависимостей
 }
 
 dependencies {

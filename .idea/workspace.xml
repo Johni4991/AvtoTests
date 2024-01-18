@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/OneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qademo/TextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/Wallpaperscraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenUrl/forTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/openUrl/ForTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/Snippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenide/Snippets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add_test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,15 +98,19 @@
     "JUnit.GoogleSearch.executor": "Debug",
     "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
+    "JUnit.OneTest.executor": "Run",
+    "JUnit.OneTest.oneTest.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
     "JUnit.TestOne.executor": "Debug",
-    "JUnit.Wallpaperscraft.executor": "Debug",
+    "JUnit.TextBox.box.executor": "Run",
+    "JUnit.TextBox.executor": "Debug",
+    "JUnit.Wallpaperscraft.executor": "Run",
     "JUnit.forTests.executor": "Debug",
     "JUnit.github in AvtoTests.test.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "forNewTests",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -120,49 +130,65 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson4">
-    <configuration name="Lesson4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OneTest.oneTest">
+    <configuration name="OneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="com.demoblaze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
+      <option name="PACKAGE_NAME" value="com.demoblaze" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.OneTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson4.BuildLikeTheBest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OneTest.oneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="com.demoblaze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
-      <option name="METHOD_NAME" value="BuildLikeTheBest" />
+      <option name="PACKAGE_NAME" value="com.demoblaze" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.OneTest" />
+      <option name="METHOD_NAME" value="oneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideRepositorySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="qademo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.SelenideRepositorySearch" />
+      <option name="PACKAGE_NAME" value="qademo" />
+      <option name="MAIN_CLASS_NAME" value="qademo.TextBox" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextBox.box" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qademo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qademo" />
+      <option name="MAIN_CLASS_NAME" value="qademo.TextBox" />
+      <option name="METHOD_NAME" value="box" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,38 +197,24 @@
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LoginTest.*" />
+          <option name="PATTERN" value="loginTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="LoginTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
+      <option name="MAIN_CLASS_NAME" value="loginTest.Wallpaperscraft" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="github in AvtoTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lesson4" />
-        <item itemvalue="JUnit.Lesson4.BuildLikeTheBest" />
+        <item itemvalue="JUnit.OneTest.oneTest" />
         <item itemvalue="JUnit.Wallpaperscraft" />
-        <item itemvalue="JUnit.SelenideRepositorySearch" />
-        <item itemvalue="JUnit.github in AvtoTests.test" />
+        <item itemvalue="JUnit.OneTest" />
+        <item itemvalue="JUnit.TextBox" />
+        <item itemvalue="JUnit.TextBox.box" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703751599307</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final commit">
+      <option name="closed" value="true" />
+      <created>1705306974383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705306974383</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,15 +311,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
     <MESSAGE value="new classes + update classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes + update classes" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

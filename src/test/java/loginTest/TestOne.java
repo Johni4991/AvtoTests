@@ -1,4 +1,4 @@
-package LoginTest;
+package loginTest;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
