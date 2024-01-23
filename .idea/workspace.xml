@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/OneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qademo/TextBox.java" afterDir="false" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/img/onePux.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/TestOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/Wallpaperscraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenUrl/forTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/openUrl/ForTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide/Snippets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenide/Snippets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/openUrl/ForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/ForTestsBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,11 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="RegistrationWithPageObjectsTests.succesfulRegistrationTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -100,6 +104,8 @@
     "JUnit.Lesson4.executor": "Debug",
     "JUnit.OneTest.executor": "Run",
     "JUnit.OneTest.oneTest.executor": "Run",
+    "JUnit.RegistrationWithPageObjectsTests.executor": "Run",
+    "JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
     "JUnit.TestOne.executor": "Debug",
@@ -120,6 +126,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/build" />
     </key>
@@ -130,7 +137,7 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OneTest.oneTest">
+  <component name="RunManager" selected="JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest">
     <configuration name="OneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
@@ -162,32 +169,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationWithPageObjectsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qademo.*" />
+          <option name="PATTERN" value="pageObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="qademo" />
-      <option name="MAIN_CLASS_NAME" value="qademo.TextBox" />
+      <option name="PACKAGE_NAME" value="pageObject" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.RegistrationWithPageObjectsTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBox.box" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationWithPageObjectsTests.succesfulRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qademo.*" />
+          <option name="PATTERN" value="pageObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="qademo" />
-      <option name="MAIN_CLASS_NAME" value="qademo.TextBox" />
-      <option name="METHOD_NAME" value="box" />
+      <option name="PACKAGE_NAME" value="pageObject" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.RegistrationWithPageObjectsTests" />
+      <option name="METHOD_NAME" value="succesfulRegistrationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest" />
+        <item itemvalue="JUnit.RegistrationWithPageObjectsTests" />
         <item itemvalue="JUnit.OneTest.oneTest" />
         <item itemvalue="JUnit.Wallpaperscraft" />
         <item itemvalue="JUnit.OneTest" />
-        <item itemvalue="JUnit.TextBox" />
-        <item itemvalue="JUnit.TextBox.box" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705306974383</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new test">
+      <option name="closed" value="true" />
+      <created>1705585586116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705585586117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +327,8 @@
     <MESSAGE value="new classes" />
     <MESSAGE value="new classes + update classes" />
     <MESSAGE value="final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+    <MESSAGE value="new test" />
+    <option name="LAST_COMMIT_MESSAGE" value="new test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
