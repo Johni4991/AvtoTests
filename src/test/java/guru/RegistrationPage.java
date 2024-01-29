@@ -1,4 +1,4 @@
-package loginTest;
+package guru;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class TestOne {
+public class RegistrationPage {
         @Test
         @Owner("Горбунов Евгений")
         @Description("Тест проверяет страницу QA GURU")

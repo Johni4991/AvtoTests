@@ -1,8 +1,9 @@
-package pages;
+package com.qademo.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import pages.components.CalendarComponent;
-import pages.components.RegistrationResultsModal;
+import com.qademo.pages.components.GeolocationComponent;
+import com.qademo.pages.components.CalendarComponent;
+import com.qademo.pages.components.RegistrationResultsModal;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
@@ -10,11 +11,12 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
 
 public class RegistrationPage {
-    CalendarComponent calendarComponent = new CalendarComponent();
-    RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
-    public final String TITLE_TEXT = "Student Registration Form";
+    private final String TITLE_TEXT = "Student Registration Form";
+    private CalendarComponent calendarComponent = new CalendarComponent();
+    private RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
+    private GeolocationComponent geolocationComponent = new GeolocationComponent();
     private SelenideElement
-            firstNameInput = $("#lastName"),
+            firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName");
 
     public RegistrationPage openPage() {
@@ -56,8 +58,38 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage verifyResultsModalAppers () {
+    public RegistrationPage setSubjects (String value) {
+        $("#subjectsInput").setValue(value).pressEnter();
+        return this;
+    }
+
+    public RegistrationPage setHobbies (String value) {
+        $("#hobbiesWrapper").$(byText(value)).click();
+        return this;
+    }
+
+    public RegistrationPage addPicture (String value) {
+        $("#uploadPicture").uploadFromClasspath(value);
+        return this;
+    }
+
+    public RegistrationPage setCurrentAddress (String value) {
+        $("#currentAddress").setValue(value);
+        return this;
+    }
+
+    public RegistrationPage setBirthGeo (String state, String city) {
+        geolocationComponent.setGeo(state, city);
+        return this;
+    }
+
+    public RegistrationPage verifyResultsModalAppers() {
         registrationResultsModal.verifyModalAppers();
+        return this;
+    }
+
+    public RegistrationPage verifyResult(String key, String value) {
+        registrationResultsModal.verifyResult(key, value);
         return this;
     }
 }

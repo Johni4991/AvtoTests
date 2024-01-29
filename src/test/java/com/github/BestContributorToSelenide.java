@@ -1,4 +1,4 @@
-package github;
+package com.github;
 
 import org.junit.jupiter.api.Test;
 

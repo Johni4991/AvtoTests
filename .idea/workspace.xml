@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObject/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/img/onePux.png" afterDir="false" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/AddPhoneCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/BaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderConfirmationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/GeolocationComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/openUrl/ForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/ForTestsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/BestContributorToSelenide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/BestContributorToSelenide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/Lesson4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/SelenideRepositorySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wallpaperscraft/Wallpaperscraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/ForTestsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/ForTestsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/RegistrationWithPageObjectsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/CalendarComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qademo/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/TextBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +111,12 @@
     "Gradle.Build AvtoTests.executor": "Run",
     "Gradle.SelenideRepositorySearch.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "JUnit.AddPhoneCart.executor": "Run",
     "JUnit.BestContributorToSelenide.executor": "Debug",
     "JUnit.GoogleSearch.executor": "Debug",
     "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
+    "JUnit.MainPage.executor": "Run",
     "JUnit.OneTest.executor": "Run",
     "JUnit.OneTest.oneTest.executor": "Run",
     "JUnit.RegistrationWithPageObjectsTests.executor": "Run",
@@ -137,8 +152,8 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest">
-    <configuration name="OneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddPhoneCart">
+    <configuration name="AddPhoneCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +162,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoblaze" />
-      <option name="MAIN_CLASS_NAME" value="com.demoblaze.OneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.AddPhoneCart" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetodsMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoblaze.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoblaze.pages" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.pages.MetodsMainPage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,7 +187,7 @@
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demoblaze.*" />
+          <option name="PATTERN" value="com.demoblaze.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +203,12 @@
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageObject.*" />
+          <option name="PATTERN" value="qademo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageObject" />
-      <option name="MAIN_CLASS_NAME" value="pageObject.RegistrationWithPageObjectsTests" />
+      <option name="PACKAGE_NAME" value="qademo" />
+      <option name="MAIN_CLASS_NAME" value="qademo.RegistrationWithPageObjectsTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,40 +218,25 @@
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageObject.*" />
+          <option name="PATTERN" value="qademo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageObject" />
-      <option name="MAIN_CLASS_NAME" value="pageObject.RegistrationWithPageObjectsTests" />
+      <option name="PACKAGE_NAME" value="qademo" />
+      <option name="MAIN_CLASS_NAME" value="qademo.RegistrationWithPageObjectsTests" />
       <option name="METHOD_NAME" value="succesfulRegistrationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wallpaperscraft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loginTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoginTest" />
-      <option name="MAIN_CLASS_NAME" value="loginTest.Wallpaperscraft" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddPhoneCart" />
+        <item itemvalue="JUnit.MetodsMainPage" />
         <item itemvalue="JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest" />
         <item itemvalue="JUnit.RegistrationWithPageObjectsTests" />
         <item itemvalue="JUnit.OneTest.oneTest" />
-        <item itemvalue="JUnit.Wallpaperscraft" />
-        <item itemvalue="JUnit.OneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705585586117</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1705997468129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705997468129</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +351,8 @@
     <MESSAGE value="new classes + update classes" />
     <MESSAGE value="final commit" />
     <MESSAGE value="new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test" />
+    <MESSAGE value="new tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

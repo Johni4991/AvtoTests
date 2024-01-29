@@ -1,8 +1,8 @@
-package pageObject;
+package com.qademo;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
-import pages.RegistrationPage;
+import com.qademo.pages.RegistrationPage;
 
 
 public class ForTestsBase {
