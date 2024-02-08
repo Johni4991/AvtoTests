@@ -6,6 +6,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class OrderForm {
     public void ordering (String name, String country, String city, String card, String month, String yeah) {
+        $(".btn-success").click();
         $("#name").setValue(name);
         $("#country").setValue(country);
         $("#city").setValue(city);

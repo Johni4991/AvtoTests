@@ -1,14 +1,25 @@
 package com.qademo.pages;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import com.qademo.pages.components.GeolocationComponent;
 import com.qademo.pages.components.CalendarComponent;
 import com.qademo.pages.components.RegistrationResultsModal;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v116.runtime.model.TimeDelta;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
+import static com.codeborne.selenide.WebDriverRunner.driver;
+import static org.apache.commons.text.lookup.StringLookupFactory.clear;
 
 public class RegistrationPage {
     private final String TITLE_TEXT = "Student Registration Form";
@@ -23,10 +34,9 @@ public class RegistrationPage {
         open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text(TITLE_TEXT));
         executeJavaScript("$('#fixedban').remove()");
-        executeJavaScript("$('#footer').remove()");
+        executeJavaScript("$('#app > footer').remove()");
         return this;
     }
-
     public RegistrationPage setFirstName(String value) {
         $(firstNameInput).setValue(value);
         return this;

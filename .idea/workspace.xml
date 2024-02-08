@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/AddPhoneCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/BaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderConfirmationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/GeolocationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/ParametrizeTestDemoblaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/PurchaseLaptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/ClickElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/FormAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/google/ParameterizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/tests/RegistrationWithJavaFackerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qademo/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forFiles/FilesParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forFiles/SelenideFilesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forFiles/model/Glossary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/csv/demoBlazeDate.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/csv/testDate.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/js/glossary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/xls/Тестовый xls.numbers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/BestContributorToSelenide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/BestContributorToSelenide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/GoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/Lesson4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/SelenideRepositorySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/Wallpaperscraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wallpaperscraft/Wallpaperscraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/ForTestsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/ForTestsBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/RegistrationWithPageObjectsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/CalendarComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qademo/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qademo/ForTestsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/tests/ForTestsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qademo/RegistrationWithPageObjectsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/tests/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qademo/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/tests/TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qademo/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/pages/RegistrationPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AvtoTests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -86,10 +110,20 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/google/ParameterizedTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
+      <run-configuration type="JUnit" name="FilesParsingTest.zipParseTest" />
       <run-configuration type="JUnit" name="RegistrationWithPageObjectsTests.succesfulRegistrationTest" />
     </enabled-run-configurations>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -102,6 +136,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.AvtoTests [:RandomUtils.main()].executor": "Run",
+    "Gradle.AvtoTests [allureReport].executor": "Run",
     "Gradle.AvtoTests [allureServe].executor": "Run",
     "Gradle.AvtoTests [dependencies].executor": "Run",
     "Gradle.AvtoTests [init].executor": "Run",
@@ -109,18 +146,31 @@
     "Gradle.AvtoTests [wrapper].executor": "Run",
     "Gradle.AvtoTests.executor": "Run",
     "Gradle.Build AvtoTests.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.SelenideRepositorySearch.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "JUnit.AddPhoneCart.executor": "Run",
     "JUnit.BestContributorToSelenide.executor": "Debug",
+    "JUnit.FilesParsingTest.csvParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.pdfParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.xlsParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.zipParseTest.executor": "Run",
     "JUnit.GoogleSearch.executor": "Debug",
     "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
     "JUnit.MainPage.executor": "Run",
     "JUnit.OneTest.executor": "Run",
     "JUnit.OneTest.oneTest.executor": "Run",
+    "JUnit.ParameterizedTest.executor": "Run",
+    "JUnit.ParametrizeTestDemoblaze.executor": "Run",
+    "JUnit.PurchaseLaptop.addLaptop.executor": "Run",
+    "JUnit.PurchaseLaptop.executor": "Run",
+    "JUnit.RegistrationWithJavaFackerTests.succesfulRegistrationTest.executor": "Run",
     "JUnit.RegistrationWithPageObjectsTests.executor": "Run",
     "JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest.executor": "Run",
+    "JUnit.SelenideFilesTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideDownloadTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
     "JUnit.TestOne.executor": "Debug",
@@ -129,6 +179,9 @@
     "JUnit.Wallpaperscraft.executor": "Run",
     "JUnit.forTests.executor": "Debug",
     "JUnit.github in AvtoTests.test.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "forNewTests",
@@ -141,9 +194,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/zip" />
+      <recent name="$PROJECT_DIR$/src/test/resources/xls" />
       <recent name="$PROJECT_DIR$/src/test/resources/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/build" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qademo.tests" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -152,8 +210,52 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddPhoneCart">
-    <configuration name="AddPhoneCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.AvtoTests [allureReport]">
+    <configuration name="AvtoTests [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AvtoTests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PurchaseLaptop.addLaptop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
@@ -162,54 +264,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoblaze" />
-      <option name="MAIN_CLASS_NAME" value="com.demoblaze.AddPhoneCart" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MetodsMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoblaze.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoblaze.pages" />
-      <option name="MAIN_CLASS_NAME" value="com.demoblaze.pages.MetodsMainPage" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneTest.oneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoblaze.pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoblaze" />
-      <option name="MAIN_CLASS_NAME" value="com.demoblaze.OneTest" />
-      <option name="METHOD_NAME" value="oneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.PurchaseLaptop" />
+      <option name="METHOD_NAME" value="addLaptop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationWithPageObjectsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationWithJavaFackerTests.succesfulRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qademo.*" />
+          <option name="PATTERN" value="com.qademo.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="qademo" />
-      <option name="MAIN_CLASS_NAME" value="qademo.RegistrationWithPageObjectsTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.qademo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qademo.tests.RegistrationWithJavaFackerTests" />
+      <option name="METHOD_NAME" value="succesfulRegistrationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,12 +291,12 @@
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qademo.*" />
+          <option name="PATTERN" value="com.qademo.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="qademo" />
-      <option name="MAIN_CLASS_NAME" value="qademo.RegistrationWithPageObjectsTests" />
+      <option name="PACKAGE_NAME" value="com.qademo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qademo.tests.RegistrationWithPageObjectsTests" />
       <option name="METHOD_NAME" value="succesfulRegistrationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -232,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddPhoneCart" />
-        <item itemvalue="JUnit.MetodsMainPage" />
+        <item itemvalue="Gradle.AvtoTests [allureReport]" />
+        <item itemvalue="Gradle.AvtoTests [allureServe]" />
+        <item itemvalue="JUnit.PurchaseLaptop.addLaptop" />
+        <item itemvalue="JUnit.RegistrationWithJavaFackerTests.succesfulRegistrationTest" />
         <item itemvalue="JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest" />
-        <item itemvalue="JUnit.RegistrationWithPageObjectsTests" />
-        <item itemvalue="JUnit.OneTest.oneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +317,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
@@ -328,8 +402,19 @@
       <option name="project" value="LOCAL" />
       <updated>1706551300612</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1706551521453</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706551521453</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

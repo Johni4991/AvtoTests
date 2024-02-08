@@ -1,4 +1,4 @@
-package com.qademo;
+package com.qademo.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;

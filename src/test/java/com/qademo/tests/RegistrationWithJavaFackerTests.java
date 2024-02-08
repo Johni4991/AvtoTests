@@ -1,14 +1,24 @@
-package com.qademo;
+package com.qademo.tests;
 
+
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Test;
 
-public class RegistrationWithPageObjectsTests extends ForTestsBase {
+import static com.qademo.utils.RandomUtils.randomEmail;
+
+public class RegistrationWithJavaFackerTests extends ForTestsBase {
     @Test
     void succesfulRegistrationTest() {
+        Faker faker = new Faker();
+
+        String firstName = faker.name().firstName();
+        String lastName1 = faker.name().lastName();
+        //String streetAddress = faker.address().streetAddress();
+
 //Test data
-        String userName = "Alex";
-        String lastName = "Egorov";
-        String email = "alex@egorov.com";
+        String userName = firstName;
+        String lastName = lastName1;
+        String email = randomEmail();
         String gender = "Other";
         String phone = "1234567890";
         String day = "30";
@@ -35,8 +45,10 @@ public class RegistrationWithPageObjectsTests extends ForTestsBase {
             .setBirthGeo(state, city)
 //Appers
             .verifyResultsModalAppers()
-            .verifyResult("Student Name", userName + " " + lastName )
-            .verifyResult("Student Email", "alex@egorov.com")
+            .verifyResult(
+                    "Student Name",
+                    userName + " " + lastName)
+            .verifyResult("Student Email", email)
             .verifyResult("Gender", "Other")
             .verifyResult("Mobile", "1234567890")
             .verifyResult("Date of Birth", "30 July,2008");
