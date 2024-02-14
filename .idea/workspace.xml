@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="+selenoid">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="+selenoid +" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707918268661</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="+selenoid +">
+      <option name="closed" value="true" />
+      <created>1707918931572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707918931572</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -446,7 +451,8 @@
     <MESSAGE value="new zip" />
     <MESSAGE value="new class + ci" />
     <MESSAGE value="+selenoid" />
-    <option name="LAST_COMMIT_MESSAGE" value="+selenoid" />
+    <MESSAGE value="+selenoid +" />
+    <option name="LAST_COMMIT_MESSAGE" value="+selenoid +" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
