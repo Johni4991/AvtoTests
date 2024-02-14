@@ -1,4 +1,4 @@
-package com.demoblaze;
+package com.demoblaze.test;
 
 import com.demoblaze.pages.MetodsPages;
 import org.junit.jupiter.params.ParameterizedTest;

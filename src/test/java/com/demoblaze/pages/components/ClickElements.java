@@ -5,8 +5,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class ClickElements {
-    public void clickLaptops() {
-        $$("#itemc").findBy(text("Laptops")).click();
+    public void clickCategories(String category) {
+        $$("#itemc").findBy(text(category)).click();
     }
     public void clickHome() {
         $(".nav-link").click();
@@ -19,5 +19,8 @@ public class ClickElements {
     }
     public void clickNext() {
         $("#next2").click();
+    }
+    public void clickLogOut() {
+        $("#logout2").click();
     }
 }

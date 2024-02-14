@@ -4,21 +4,19 @@ package com.qademo.tests;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Test;
 
-import static com.qademo.utils.RandomUtils.randomEmail;
-
 public class RegistrationWithJavaFackerTests extends ForTestsBase {
     @Test
     void succesfulRegistrationTest() {
-        Faker faker = new Faker();
+        Faker faker = new Faker();  //randoms values
 
         String firstName = faker.name().firstName();
         String lastName1 = faker.name().lastName();
-        //String streetAddress = faker.address().streetAddress();
+        String streetAddress = faker.internet().emailAddress();
 
 //Test data
         String userName = firstName;
         String lastName = lastName1;
-        String email = randomEmail();
+        String email = streetAddress;
         String gender = "Other";
         String phone = "1234567890";
         String day = "30";

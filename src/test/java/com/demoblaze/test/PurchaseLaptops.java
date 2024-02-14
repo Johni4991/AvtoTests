@@ -1,19 +1,20 @@
-package com.demoblaze;
+package com.demoblaze.test;
 
 import org.junit.jupiter.api.Test;
 
-public class PurchaseLaptop extends BaseUrl{
+public class PurchaseLaptops extends BaseUrl {
     @Test
     public void addLaptop() {
+    authorizationForm.loginForm();
     metodsPages.openPage()
-    .clickLaptops()
+    .clickCategories("Laptops")
     .addProduct(
             "MacBook Pro")
     .openCart(
             "Products",
             "MacBook Pro")
     .clickHome()
-    .clickLaptops()
+    .clickCategories("Laptops")
     .addProduct(
             "MacBook air")
     .openCart(
@@ -30,6 +31,7 @@ public class PurchaseLaptop extends BaseUrl{
             "Thank you for your purchase!",
             "Id: ",
             "Card Number: 123456789",
-            "Name: Жека");
+            "Name: Жека")
+    .clickLogOut();
     }
 }

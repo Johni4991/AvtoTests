@@ -6,6 +6,20 @@ plugins {
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
+allure {
+    report {
+        version.set("2.19.0")
+    }
+    adapter {//отвечает за появление папки build/allure-reports
+        aspectjWeaver.set(true) //обработка аннотации @Step
+        frameworks {
+            junit5 {//название фреймворка
+                adapterVersion.set("2.19.0") //версия интегратора фреймворка и Allure
+            }
+        }
+    }
+}
+
 repositories {
     mavenCentral() //для подтягивания зависимостей
 }
@@ -30,6 +44,7 @@ dependencies {
     testImplementation("io.qameta.allure:allure-assertj:2.20.1")
     testImplementation("io.qameta.allure:allure-rest-assured:2.20.1")
     testImplementation("io.qameta.allure:allure-java-commons:2.20.1")
+    testImplementation("io.qameta.allure:allure-selenide:2.25.0")
 }
 tasks.test {
     useJUnitPlatform()

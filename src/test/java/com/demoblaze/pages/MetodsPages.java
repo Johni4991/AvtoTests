@@ -4,6 +4,7 @@ import com.codeborne.selenide.Selenide;
 import com.demoblaze.pages.components.ClickElements;
 import com.demoblaze.pages.components.OrderConfirmationForm;
 import com.demoblaze.pages.components.OrderForm;
+import com.demoblaze.utils.RandomsValues;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
@@ -12,6 +13,7 @@ public class MetodsPages {
     OrderForm orderForm = new OrderForm();
     OrderConfirmationForm orderConfirmationForm = new OrderConfirmationForm();
     ClickElements clickElements = new ClickElements();
+    RandomsValues randomsValues = new RandomsValues();
     private final String TITLE_TEXT = "PRODUCT STORE";
     public MetodsPages openPage() {
         $("#nava").shouldHave(text(TITLE_TEXT));
@@ -34,12 +36,16 @@ public class MetodsPages {
         orderForm.ordering(name, country, city, card, month, yeah);
         return this;
     }
+    public MetodsPages randomValuesOrderForm() {
+        randomsValues.setFaker();
+        return this;
+    }
     public MetodsPages orderFormPurchase(String title, String id, String cardNumber, String name) {
         orderConfirmationForm.orderIphone(title, id, cardNumber, name);
         return this;
     }
-    public MetodsPages clickLaptops() {
-        clickElements.clickLaptops();
+    public MetodsPages clickCategories(String category) {
+        clickElements.clickCategories(category);
         return this;
     }
     public MetodsPages clickHome() {
@@ -56,6 +62,10 @@ public class MetodsPages {
     }
     public MetodsPages clickNext() {
         clickElements.clickNext();
+        return this;
+    }
+    public MetodsPages clickLogOut() {
+        clickElements.clickLogOut();
         return this;
     }
 }
