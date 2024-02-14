@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="+selenoid +" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,15 +78,6 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/google/ParameterizedTest.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -96,9 +89,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.AvtoTests [:RandomUtils.main()].executor": "Run",
-    "Gradle.AvtoTests [allureReport].executor": "Run",
     "Gradle.AvtoTests [allureServe].executor": "Run",
     "Gradle.AvtoTests [dependencies].executor": "Run",
     "Gradle.AvtoTests [init].executor": "Run",
@@ -106,49 +96,18 @@
     "Gradle.AvtoTests [wrapper].executor": "Run",
     "Gradle.AvtoTests.executor": "Run",
     "Gradle.Build AvtoTests.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
     "Gradle.SelenideRepositorySearch.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "JUnit.AddPhoneCart.AddiPhone.executor": "Run",
-    "JUnit.AddPhoneCart.executor": "Run",
-    "JUnit.AllureTest.efef.executor": "Run",
-    "JUnit.AttachmentsTest.executor": "Run",
-    "JUnit.AttachmentsTest.testLambdaAttachments.executor": "Run",
     "JUnit.BestContributorToSelenide.executor": "Debug",
-    "JUnit.FilesParsingTest.csvParseTest.executor": "Run",
-    "JUnit.FilesParsingTest.pdfParseTest.executor": "Run",
-    "JUnit.FilesParsingTest.xlsParseTest.executor": "Run",
-    "JUnit.FilesParsingTest.zipParseTest.executor": "Run",
-    "JUnit.FormAuthorization.loginForm.executor": "Run",
     "JUnit.GoogleSearch.executor": "Debug",
     "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
-    "JUnit.MainPage.executor": "Run",
-    "JUnit.OneTest.executor": "Run",
-    "JUnit.OneTest.oneTest.executor": "Run",
-    "JUnit.ParameterizedTest.executor": "Run",
-    "JUnit.ParametrizeTestDemoblaze.executor": "Run",
-    "JUnit.PurchaseLaptop.addLaptop.executor": "Run",
-    "JUnit.PurchaseLaptop.executor": "Run",
-    "JUnit.PurchaseMonitors.addMonitors.executor": "Run",
-    "JUnit.RegistrationWithJavaFackerTests.succesfulRegistrationTest.executor": "Run",
-    "JUnit.RegistrationWithPageObjectsTests.executor": "Run",
-    "JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest.executor": "Run",
-    "JUnit.SelenideFilesTest.executor": "Run",
-    "JUnit.SelenideFilesTest.selenideDownloadTest.executor": "Run",
-    "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
     "JUnit.TestOne.executor": "Debug",
-    "JUnit.TextBox.box.executor": "Run",
-    "JUnit.TextBox.executor": "Debug",
-    "JUnit.Wallpaperscraft.executor": "Run",
+    "JUnit.Wallpaperscraft.executor": "Debug",
     "JUnit.forTests.executor": "Debug",
     "JUnit.github in AvtoTests.test.executor": "Debug",
-    "JUnit.testttsss.taskPage.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "forNewTests",
@@ -156,22 +115,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/zip" />
-      <recent name="$PROJECT_DIR$/src/test/resources/xls" />
-      <recent name="$PROJECT_DIR$/src/test/resources/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/build" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.allure" />
-      <recent name="com.github" />
-      <recent name="com.qademo.tests" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -268,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AvtoTests [allureServe]" />
-        <item itemvalue="JUnit.AttachmentsTest" />
-        <item itemvalue="JUnit.AttachmentsTest.testLambdaAttachments" />
-        <item itemvalue="JUnit.AllureTest.efef" />
         <item itemvalue="JUnit.PurchaseMonitors.addMonitors" />
+        <item itemvalue="JUnit.AttachmentsTest.testLambdaAttachments" />
+        <item itemvalue="JUnit.AttachmentsTest" />
+        <item itemvalue="JUnit.AllureTest.efef" />
+        <item itemvalue="Gradle.AvtoTests [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +230,6 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
@@ -333,91 +282,8 @@
       <option name="project" value="LOCAL" />
       <updated>1703751599307</updated>
     </task>
-    <task id="LOCAL-00006" summary="final commit">
-      <option name="closed" value="true" />
-      <created>1705306974383</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705306974383</updated>
-    </task>
-    <task id="LOCAL-00007" summary="new test">
-      <option name="closed" value="true" />
-      <created>1705585586116</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705585586117</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new tests">
-      <option name="closed" value="true" />
-      <created>1705997468129</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705997468129</updated>
-    </task>
-    <task id="LOCAL-00009" summary="new tests">
-      <option name="closed" value="true" />
-      <created>1706551300612</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1706551300612</updated>
-    </task>
-    <task id="LOCAL-00010" summary="new tests">
-      <option name="closed" value="true" />
-      <created>1706551521453</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1706551521453</updated>
-    </task>
-    <task id="LOCAL-00011" summary="new tests">
-      <option name="closed" value="true" />
-      <created>1707415886280</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707415886280</updated>
-    </task>
-    <task id="LOCAL-00012" summary="new zip">
-      <option name="closed" value="true" />
-      <created>1707415907679</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1707415907679</updated>
-    </task>
-    <task id="LOCAL-00013" summary="new class + ci">
-      <option name="closed" value="true" />
-      <created>1707917053141</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1707917053141</updated>
-    </task>
-    <task id="LOCAL-00014" summary="+selenoid">
-      <option name="closed" value="true" />
-      <created>1707918268661</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1707918268661</updated>
-    </task>
-    <task id="LOCAL-00015" summary="+selenoid +">
-      <option name="closed" value="true" />
-      <created>1707918931572</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1707918931572</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -445,14 +311,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
     <MESSAGE value="new classes + update classes" />
-    <MESSAGE value="final commit" />
-    <MESSAGE value="new test" />
-    <MESSAGE value="new tests" />
-    <MESSAGE value="new zip" />
-    <MESSAGE value="new class + ci" />
-    <MESSAGE value="+selenoid" />
-    <MESSAGE value="+selenoid +" />
-    <option name="LAST_COMMIT_MESSAGE" value="+selenoid +" />
+    <option name="LAST_COMMIT_MESSAGE" value="new classes + update classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
