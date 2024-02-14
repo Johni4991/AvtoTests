@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new zip">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/AuthorizationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchaseMonitors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchasePhones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/utils/RandomsValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/allure/AllureStepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/allure/AllureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/allure/AttachmentsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/allure/LabelsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/allure/WebSteps.java" afterDir="false" />
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new class + ci">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/AddPhoneCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/BaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/BaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/ParametrizeTestDemoblaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/ParametrizeTestDemoblaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/PurchaseLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchaseLaptops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/ClickElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/ClickElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/FormAuthorization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderConfirmationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderConfirmationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qademo/tests/RegistrationWithJavaFackerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qademo/tests/RegistrationWithJavaFackerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707415907679</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new class + ci">
+      <option name="closed" value="true" />
+      <created>1707917053141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707917053141</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -447,7 +437,8 @@
     <MESSAGE value="new test" />
     <MESSAGE value="new tests" />
     <MESSAGE value="new zip" />
-    <option name="LAST_COMMIT_MESSAGE" value="new zip" />
+    <MESSAGE value="new class + ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class + ci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
