@@ -1,4 +1,4 @@
-package Selenide;
+package selenide;
 
 import com.codeborne.selenide.*;
 import org.openqa.selenium.*;
@@ -125,7 +125,7 @@ public class Snippets {
         $("").shouldNot(appear);
 
 
-        //longer timeouts //таймаут можно увеличить для отобработки или появления кнопки
+        //longer timeouts //таймаут можно увеличить для отображения или появления кнопки
         $("").shouldBe(visible, Duration.ofSeconds(30));
 
     }

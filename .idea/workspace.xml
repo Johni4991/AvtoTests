@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/Lesson4.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="+selenoid +" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +28,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AvtoTests" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AvtoTests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -49,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add_test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,6 +76,15 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/google/ParameterizedTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -79,6 +96,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.AvtoTests [:RandomUtils.main()].executor": "Run",
+    "Gradle.AvtoTests [allureReport].executor": "Run",
     "Gradle.AvtoTests [allureServe].executor": "Run",
     "Gradle.AvtoTests [dependencies].executor": "Run",
     "Gradle.AvtoTests [init].executor": "Run",
@@ -86,32 +106,72 @@
     "Gradle.AvtoTests [wrapper].executor": "Run",
     "Gradle.AvtoTests.executor": "Run",
     "Gradle.Build AvtoTests.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.SelenideRepositorySearch.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "JUnit.AddPhoneCart.AddiPhone.executor": "Run",
+    "JUnit.AddPhoneCart.executor": "Run",
+    "JUnit.AllureTest.efef.executor": "Run",
+    "JUnit.AttachmentsTest.executor": "Run",
+    "JUnit.AttachmentsTest.testLambdaAttachments.executor": "Run",
     "JUnit.BestContributorToSelenide.executor": "Debug",
+    "JUnit.FilesParsingTest.csvParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.pdfParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.xlsParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.zipParseTest.executor": "Run",
+    "JUnit.FormAuthorization.loginForm.executor": "Run",
     "JUnit.GoogleSearch.executor": "Debug",
     "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
     "JUnit.Lesson4.executor": "Debug",
+    "JUnit.MainPage.executor": "Run",
+    "JUnit.OneTest.executor": "Run",
+    "JUnit.OneTest.oneTest.executor": "Run",
+    "JUnit.ParameterizedTest.executor": "Run",
+    "JUnit.ParametrizeTestDemoblaze.executor": "Run",
+    "JUnit.PurchaseLaptop.addLaptop.executor": "Run",
+    "JUnit.PurchaseLaptop.executor": "Run",
+    "JUnit.PurchaseMonitors.addMonitors.executor": "Run",
+    "JUnit.RegistrationWithJavaFackerTests.succesfulRegistrationTest.executor": "Run",
+    "JUnit.RegistrationWithPageObjectsTests.executor": "Run",
+    "JUnit.RegistrationWithPageObjectsTests.succesfulRegistrationTest.executor": "Run",
+    "JUnit.SelenideFilesTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideDownloadTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
     "JUnit.SelenideRepositorySearch.executor": "Debug",
     "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
     "JUnit.TestOne.executor": "Debug",
-    "JUnit.Wallpaperscraft.executor": "Debug",
+    "JUnit.TextBox.box.executor": "Run",
+    "JUnit.TextBox.executor": "Debug",
+    "JUnit.Wallpaperscraft.executor": "Run",
     "JUnit.forTests.executor": "Debug",
     "JUnit.github in AvtoTests.test.executor": "Debug",
+    "JUnit.testttsss.taskPage.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "forNewTests",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/zip" />
+      <recent name="$PROJECT_DIR$/src/test/resources/xls" />
+      <recent name="$PROJECT_DIR$/src/test/resources/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/build" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.allure" />
+      <recent name="com.github" />
+      <recent name="com.qademo.tests" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -120,89 +180,99 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Lesson4">
-    <configuration name="Lesson4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AvtoTests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.AvtoTests [allureServe]">
+    <configuration name="AvtoTests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="Lesson4.BuildLikeTheBest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllureTest.efef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="com.github.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.Lesson4" />
-      <option name="METHOD_NAME" value="BuildLikeTheBest" />
+      <option name="PACKAGE_NAME" value="com.github.allure" />
+      <option name="MAIN_CLASS_NAME" value="com.github.allure.AllureTest" />
+      <option name="METHOD_NAME" value="efef" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideRepositorySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AttachmentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="com.github.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="MAIN_CLASS_NAME" value="github.SelenideRepositorySearch" />
+      <option name="PACKAGE_NAME" value="com.github.allure" />
+      <option name="MAIN_CLASS_NAME" value="com.github.allure.AttachmentsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wallpaperscraft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AttachmentsTest.testLambdaAttachments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LoginTest.*" />
+          <option name="PATTERN" value="com.github.allure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LoginTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest.Wallpaperscraft" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.github.allure" />
+      <option name="MAIN_CLASS_NAME" value="com.github.allure.AttachmentsTest" />
+      <option name="METHOD_NAME" value="testLambdaAttachments" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="github in AvtoTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseMonitors.addMonitors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.*" />
+          <option name="PATTERN" value="com.demoblaze.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.demoblaze.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demoblaze.test.PurchaseMonitors" />
+      <option name="METHOD_NAME" value="addMonitors" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Lesson4" />
-        <item itemvalue="JUnit.Lesson4.BuildLikeTheBest" />
-        <item itemvalue="JUnit.Wallpaperscraft" />
-        <item itemvalue="JUnit.SelenideRepositorySearch" />
-        <item itemvalue="JUnit.github in AvtoTests.test" />
+        <item itemvalue="Gradle.AvtoTests [allureServe]" />
+        <item itemvalue="JUnit.AttachmentsTest" />
+        <item itemvalue="JUnit.AttachmentsTest.testLambdaAttachments" />
+        <item itemvalue="JUnit.AllureTest.efef" />
+        <item itemvalue="JUnit.PurchaseMonitors.addMonitors" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +280,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
@@ -262,8 +333,91 @@
       <option name="project" value="LOCAL" />
       <updated>1703751599307</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final commit">
+      <option name="closed" value="true" />
+      <created>1705306974383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705306974383</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new test">
+      <option name="closed" value="true" />
+      <created>1705585586116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705585586117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1705997468129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705997468129</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1706551300612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706551300612</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1706551521453</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706551521453</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new tests">
+      <option name="closed" value="true" />
+      <created>1707415886280</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707415886280</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new zip">
+      <option name="closed" value="true" />
+      <created>1707415907679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707415907679</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new class + ci">
+      <option name="closed" value="true" />
+      <created>1707917053141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707917053141</updated>
+    </task>
+    <task id="LOCAL-00014" summary="+selenoid">
+      <option name="closed" value="true" />
+      <created>1707918268661</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707918268661</updated>
+    </task>
+    <task id="LOCAL-00015" summary="+selenoid +">
+      <option name="closed" value="true" />
+      <created>1707918931572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707918931572</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -291,15 +445,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
     <MESSAGE value="new classes + update classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes + update classes" />
+    <MESSAGE value="final commit" />
+    <MESSAGE value="new test" />
+    <MESSAGE value="new tests" />
+    <MESSAGE value="new zip" />
+    <MESSAGE value="new class + ci" />
+    <MESSAGE value="+selenoid" />
+    <MESSAGE value="+selenoid +" />
+    <option name="LAST_COMMIT_MESSAGE" value="+selenoid +" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/LoginTest/TestOne.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
