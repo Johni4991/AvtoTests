@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="new classes + update classes">
+    <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,37 +87,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AvtoTests [allureServe].executor": "Run",
-    "Gradle.AvtoTests [dependencies].executor": "Run",
-    "Gradle.AvtoTests [init].executor": "Run",
-    "Gradle.AvtoTests [testClasses].executor": "Run",
-    "Gradle.AvtoTests [wrapper].executor": "Run",
-    "Gradle.AvtoTests.executor": "Run",
-    "Gradle.Build AvtoTests.executor": "Run",
-    "Gradle.SelenideRepositorySearch.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "JUnit.BestContributorToSelenide.executor": "Debug",
-    "JUnit.GoogleSearch.executor": "Debug",
-    "JUnit.Lesson4.BuildLikeTheBest.executor": "Debug",
-    "JUnit.Lesson4.executor": "Debug",
-    "JUnit.SelenideRepositorySearch.executor": "Debug",
-    "JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Coverage",
-    "JUnit.TestOne.executor": "Debug",
-    "JUnit.Wallpaperscraft.executor": "Debug",
-    "JUnit.forTests.executor": "Debug",
-    "JUnit.github in AvtoTests.test.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "forNewTests",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AvtoTests [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvtoTests [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvtoTests [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvtoTests [testClasses].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvtoTests [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AvtoTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build AvtoTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideRepositorySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BestContributorToSelenide.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.GoogleSearch.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Lesson4.BuildLikeTheBest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Lesson4.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SelenideRepositorySearch.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.TestOne.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Wallpaperscraft.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.forTests.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.github in AvtoTests.test.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;forNewTests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -230,6 +230,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-55c9c8bc" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
