@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="5f67065d-f282-4265-8365-d54b55024edc" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/MetodsPages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/AuthorizationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/ClickElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderConfirmationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/pages/components/OrderForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/BaseUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/ParametrizeTestDemoblaze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchaseLaptops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchaseMonitors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/test/PurchasePhones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/utils/RandomsValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/demoBlazeDate.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +47,6 @@
                 <item name="AvtoTests" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="AvtoTests" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -56,10 +62,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="forNewTests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,11 +115,12 @@
     &quot;JUnit.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor&quot;: &quot;Coverage&quot;,
     &quot;JUnit.TestOne.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.Wallpaperscraft.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.com in AvtoTests.test.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.forTests.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.github in AvtoTests.test.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;forNewTests&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -130,29 +140,7 @@
       <command value="gradle --update-locks" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AvtoTests [allureServe]">
-    <configuration name="AvtoTests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureServe" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.com in AvtoTests.test">
     <configuration name="AllureTest.efef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvtoTests.test" />
       <extension name="coverage">
@@ -216,13 +204,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com in AvtoTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com in AvtoTests.test" />
         <item itemvalue="JUnit.PurchaseMonitors.addMonitors" />
         <item itemvalue="JUnit.AttachmentsTest.testLambdaAttachments" />
         <item itemvalue="JUnit.AttachmentsTest" />
         <item itemvalue="JUnit.AllureTest.efef" />
-        <item itemvalue="Gradle.AvtoTests [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -313,22 +315,6 @@
     <MESSAGE value="new classes" />
     <MESSAGE value="new classes + update classes" />
     <option name="LAST_COMMIT_MESSAGE" value="new classes + update classes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/selenide/Snippets.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AvtoTests$SelenideRepositorySearch_shouldFindSelenideRepositoryAtTheTop.ic" NAME="SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop Coverage Results" MODIFIED="1702892441739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
